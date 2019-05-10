@@ -6,14 +6,19 @@ class Header extends Component {
          return ( 
               <div className="navbar">
                <ul className="navbar-nav">
-                 <li className="nav-item">
+                 <li>
                    Sandwiches
                  </li>
-                 <li className="nav-item">
+                 <li >
                    Order
                  </li>
-                 <li className="nav-item">
+                 <li>
                    Idk
+                 </li>               
+               </ul>
+               <ul className="navbar-nav">
+               <li className="navlink-right">
+                   Login
                  </li>
                </ul>
               </div>
