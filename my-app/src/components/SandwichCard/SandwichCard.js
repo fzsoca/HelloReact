@@ -5,8 +5,8 @@ class SandwichCard extends React.Component {
         return (
             <div className="kakas-sandwich-container">
                 <div>
-                    <p className="kakas-sandwich-name">{this.props.name}</p>
-                    <p className="kakas-sandwich-price">{this.props.price}</p>
+                    <p>{this.props.name}</p>
+                    <p>{this.props.price}</p>
                 </div>
                {this.props.ingredients.map(ingredient => <div>{ingredient}</div> )}
             </div>
